@@ -1,0 +1,96 @@
+#redondos {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#curvados {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+#perspectiva {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    clear: both;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+#elevada {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+#curva_lateral {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    clear: both;
+}
+
+#curva_lateral_doble {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+#curva_horizontal {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    clear: both;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+#curva_horizontal_doble {
+
+    border: solid 1px black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
