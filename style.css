@@ -1,3 +1,9 @@
+#general {
+
+    margin: 0 auto;
+
+}
+
 #redondos {
 
     border: solid 1px black;
@@ -22,6 +28,7 @@
     -5px radio de la sombra para que se vea mas grande o mas pequeña
     */
     text-align: center;
+    justify-content: center;
 
 }
 
@@ -52,7 +59,7 @@
     margin-left: 8px;
     margin-right: 8px;
 
-    box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.4); /*se desplazar la sombra, pero no girarla ...
+    box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.4); /*se desplazar la sombra, pero no girarla ...*/
 
 }
 
