@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+}
+
 body {
 
     border: solid 1px red;
@@ -12,6 +16,7 @@ body {
     border: solid 1px blue;
     display: table-cell;
     padding: 10px;
+    margin: 0 auto;
 
 }
 
@@ -72,8 +77,22 @@ p {
     margin-bottom: 15px;
     margin-left: 8px;
     margin-right: 8px;
+    z-index: 1;
+    
 
-    box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.4); /*se desplazar la sombra, pero no girarla ...*/
+}
+
+.sombra_pers {
+
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: 168px;
+    background-color: grey;
+    transform: skew(20deg);
+    box-shadow: -10px 10px 5px -8px rgba(0,0,0,0.75);
+    z-index: 5;
+    opacity: .100;
 
 }
 
