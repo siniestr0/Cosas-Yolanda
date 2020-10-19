@@ -8,16 +8,17 @@ body {
     margin: 0px auto;
     text-align: center;
     align-items: center;
-    position: relative;
+    
 }
 
 .general {
 
     border: solid 1px blue;
+    width: 700px;
+    height: 1000px;
     display: table-cell;
     padding: 10px;
-    margin: 0 auto;
-
+   
 }
 
 p {
