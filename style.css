@@ -79,9 +79,8 @@ p {
     margin-right: 8px;
     z-index: 1;
     
-
 }
-
+/*pretendo hacer otro cuadro, y usar ese cuadro como sombra, pero no me funciona el <-index para que se muestre por detras.*/
 .sombra_pers {
 
     width: 100px;
