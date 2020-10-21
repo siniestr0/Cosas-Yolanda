@@ -1,0 +1,6 @@
+/*asi no mostramos la cabecera, pie de pagina ni menus de navegacion ni el aside de la derecha*/
+header, footer, nav, aside {
+    display: none;
+
+  }
+
