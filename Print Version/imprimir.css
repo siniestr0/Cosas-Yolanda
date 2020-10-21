@@ -4,3 +4,14 @@ header, footer, nav, aside {
 
   }
 
+/*mostramos los links para que se puedan imprimir*/
+a[href]:before {
+    content: " (" attr(href) ")";
+}   
+
+body {
+    font-size: 12pt;
+    font: serif;
+    
+    }
+
