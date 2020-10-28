@@ -1,0 +1,21 @@
+.contenedor {
+
+    width:  100%;
+    border-style:  solid;
+    border-color: blue;
+    border-width: 4px;
+    margin-top: 15px;
+    display: flex;
+
+}
+
+.contenedor>div {
+
+    background-color: pink;
+    color: white;
+    text-align: center;
+    width: 50px;
+    font-size: 3em;
+    margin: 4px;
+    
+}
