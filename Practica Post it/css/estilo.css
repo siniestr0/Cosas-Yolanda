@@ -3,6 +3,7 @@ Jose Luis Hervas Crucras
 DAW2
 */
 
+/*para importar fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 /* revisar porque no entra todo en la caja del body.*/
@@ -68,6 +69,7 @@ a {
     font-weight: bold;
 
 }
+
 /*about, projects, people etc ... */
 
 #menu_pestañas {
@@ -115,6 +117,8 @@ li.m1 {
     margin-right: 10px;
     font-family: 'PT Sans';
     color: grey;
+    position: relative;
+
 }
 
 li.m2 {
@@ -140,11 +144,94 @@ li.m2 {
     font-weight: bold;
 }
 
+#menu_idioma {
+    float: right;
+    width: 490px;
+    height: 35px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+
+.idioma {
+    float: left;
+    text-align: right;
+    padding: 0px 0px 0px 350px;
+}
+
+li.m3 {
+    display: inline;
+}
+
+.m3 a {
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    background: #F2F2F2;
+}
+
+.m3 a:hover {
+    color: black;
+    background: gray;
+    /*efecto sombra al pasar por encima*/
+    box-shadow: inset -2px 2px 4px 2px rgb(200, 200, 200);
+}
+
+.m3 a:active {
+    color: black;
+    background: gray;
+}
+
+/*identificadores de cada idioma*/
+
+#ca {
+    border-radius: 0px;
+}
+
+#en {
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 5px;
+}
+
+#es {
+    border-radius: 0px 15px 15px 0px;
+}
+
+/*es la linea que hay debajo del menu de las pestañas y el idioma*/
+.linea {
+    clear: both;
+    /*limpio el float de los elementos de arriba*/
+    border: 2px solid #F2F2F2; /* copio el mismo color que el fondo de las pestañas*/ 
+    background-color: #F2F2F2;
+    width: 1190px;
+    padding: 1px;
+    
+}
+
 #program {
 
     font-family: sans-serif;
     color: rgb(0, 188, 209);
 }
 
+section {
+    width: 890px;
+    float: left;
+    margin-right: 10px;
+}
 
+.imagen_tiendasCampañas {
+    float: right;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
 
+.textoPrograma {
+    color: black;
+}
