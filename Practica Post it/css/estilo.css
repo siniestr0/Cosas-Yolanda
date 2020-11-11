@@ -3,6 +3,7 @@ Jose Luis Hervas Crucras
 DAW2
 */
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 /* revisar porque no entra todo en la caja del body.*/
 body {
@@ -89,4 +90,6 @@ li.m1 {
 
     width: 1200px;
     float: left;
+    font-family: fantasy;
+    clear: left;
 }
