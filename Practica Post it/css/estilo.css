@@ -3,19 +3,20 @@ Jose Luis Hervas Crucras
 DAW2
 */
 
+
+/* revisar porque no entra todo en la caja del body.*/
 body {
 
     border: solid red;
     width: 1200px;
-    margin: 0px;
-    
+    margin: 0px auto; /*margin 0 auto, para que se quede todo el body centrado.*/ 
     
 }
 
 .logo {
-    width: 550px;
-    height: 125px;
-    margin-right: 10px;
+    width: 590px;
+    height: 150px;
+    margin-right: 5px;
     float: left;
 
 }
@@ -32,11 +33,13 @@ a {
     border-radius: 8px 8px 8px 8px;
 }
 
+/* log in  y sign up*/
 #reg {
-
-    margin-left: 10px;
+    float: right;
+    width: 590px;
     height: 5px;
     font-family: sans-serif;
+    margin-left: 5px;
 
 }
 
@@ -53,13 +56,14 @@ a {
     font-weight: bold;
 
 }
+/*about, projects, people etc ... */
 
 #menu_pestañas {
     float: right;
-    width: 550px;
+    width: 590px;
     height: 45px;
     margin-top: 60px;
-    margin: 1px;
+    
     
 }
 
@@ -79,4 +83,10 @@ li.m1 {
     text-align: center;
     font-size: 20px;
 
+}
+/*Subtitulo drumbeat learning, freedom etc ...*/
+#subtitulo {
+
+    width: 1200px;
+    float: left;
 }
