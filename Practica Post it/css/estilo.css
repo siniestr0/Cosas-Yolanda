@@ -8,8 +8,8 @@ DAW2
 /* revisar porque no entra todo en la caja del body.*/
 body {
 
-    border: solid red;
     width: 1200px;
+    height: 500px;
     margin: 0px auto; /*margin 0 auto, para que se quede todo el body centrado.*/ 
     
 }
@@ -17,9 +17,14 @@ body {
 .logo {
     width: 590px;
     height: 150px;
-    margin-right: 5px;
+    margin-right: 10px;
     float: left;
 
+}
+
+hr {
+
+    width: 100%;
 }
 
 /*para quitar los puntitos de las listas*/
@@ -36,11 +41,17 @@ a {
 
 /* log in  y sign up*/
 #reg {
-    float: right;
-    width: 590px;
-    height: 5px;
+
+    display: inline;
+    width: 600px;
     font-family: sans-serif;
-    margin-left: 5px;
+
+}
+
+/* Para el link hay que poner un espacio*/
+#reg a {
+
+    width: 75px;
 
 }
 
@@ -60,11 +71,11 @@ a {
 /*about, projects, people etc ... */
 
 #menu_pestañas {
+
     float: right;
     width: 590px;
     height: 45px;
     margin-top: 60px;
-    
     
 }
 
@@ -90,6 +101,50 @@ li.m1 {
 
     width: 1200px;
     float: left;
-    font-family: fantasy;
+    font-family: 'PT Sans';
     clear: left;
+    color: rgb(5, 126, 140);
 }
+
+/* Pestañas Festival, program, participants etc ... */
+#navegacion_secundaria {
+    clear: left;
+    float: left;
+    width: 690px;
+    height: 40px;
+    margin-right: 10px;
+    font-family: 'PT Sans';
+    color: grey;
+}
+
+li.m2 {
+
+    display: inline;
+}
+
+.m2 a {
+    float: left;
+    padding: 8px;
+    margin-right: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    background: #F2F2F2;
+    border-radius: 10px 10px 0 0 ; /* asi ponemos el borde superior redondeados*/
+}
+
+/*para cuando pase por la pestaña, que salga negrita*/
+.m2 a:hover {
+
+    color: black;
+    font-weight: bold;
+}
+
+#program {
+
+    font-family: sans-serif;
+    color: rgb(0, 188, 209);
+}
+
+
+
