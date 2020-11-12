@@ -213,6 +213,12 @@ li.m3 {
     
 }
 
+/* para poder meter bien los dos articulos de abajo, hay que hacer un poco mas pequeña la foto.*/
+.imagen_tiendasCampañas {
+
+    height: 125px;
+}
+
 #program {
 
     font-family: sans-serif;
@@ -234,4 +240,43 @@ section {
 
 .textoPrograma {
     color: black;
+}
+
+#whatsAbout {
+    width: 490px;
+    margin-right: 10px;
+    float: left;
+    font-family: 'Times New Roman';
+}
+
+a:hover .whatsAbout {
+
+    color: rgb(5, 126, 140);
+}
+
+#schedule {
+    width: 390px;
+    float: right;
+}
+
+.program {
+    width: 890px;
+    float: left;
+}
+
+#festival {
+    clear: both;
+    width: 890px;
+}
+
+#espacio_festival {
+    clear: left;
+    float: left;
+    width: 890px;
+}
+
+h2 {
+
+    color: rgb(5, 126, 140);
+    font-family: sans-serif;
 }
