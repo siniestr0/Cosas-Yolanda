@@ -3,16 +3,18 @@ Jose Luis Hervas Crucras
 DAW2
 */
 
+
 /*para importar fuentes*/
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 /* revisar porque no entra todo en la caja del body.*/
-body {
 
+body {
     width: 1200px;
     height: 500px;
-    margin: 0px auto; /*margin 0 auto, para que se quede todo el body centrado.*/ 
-    
+    margin: 0px auto;
+    /*margin 0 auto, para que se quede todo el body centrado.*/
 }
 
 .logo {
@@ -20,15 +22,15 @@ body {
     height: 150px;
     margin-right: 10px;
     float: left;
-
 }
 
 hr {
-
     width: 100%;
 }
 
+
 /*para quitar los puntitos de las listas*/
+
 ul {
     list-style-type: none;
 }
@@ -40,45 +42,43 @@ a {
     border-radius: 8px 8px 8px 8px;
 }
 
-/* log in  y sign up*/
-#reg {
 
+/* log in  y sign up*/
+
+#reg {
     display: inline;
     width: 600px;
     font-family: sans-serif;
-
 }
 
+
 /* Para el link hay que poner un espacio*/
+
 #reg a {
-
     width: 75px;
-
 }
 
 .registro a {
-    
     float: right;
     text-align: right;
     color: black;
-    
 }
+
+
 /* cuando se pasa el raton por encima del link se pone negrita*/
+
 .registro a:hover {
-
     font-weight: bold;
-
 }
+
 
 /*about, projects, people etc ... */
 
 #menu_pestañas {
-
     float: right;
     width: 590px;
     height: 45px;
     margin-top: 60px;
-    
 }
 
 li.m1 {
@@ -86,7 +86,6 @@ li.m1 {
 }
 
 .m1 a {
-
     background: rgba(199, 196, 196, 0.483);
     float: right;
     margin: 1px;
@@ -96,11 +95,12 @@ li.m1 {
     width: 80px;
     text-align: center;
     font-size: 20px;
-
 }
-/*Subtitulo drumbeat learning, freedom etc ...*/
-#subtitulo {
 
+
+/*Subtitulo drumbeat learning, freedom etc ...*/
+
+#subtitulo {
     width: 1200px;
     float: left;
     font-family: 'PT Sans';
@@ -108,7 +108,9 @@ li.m1 {
     color: rgb(5, 126, 140);
 }
 
+
 /* Pestañas Festival, program, participants etc ... */
+
 #navegacion_secundaria {
     clear: left;
     float: left;
@@ -118,11 +120,9 @@ li.m1 {
     font-family: 'PT Sans';
     color: grey;
     position: relative;
-
 }
 
 li.m2 {
-
     display: inline;
 }
 
@@ -134,12 +134,14 @@ li.m2 {
     font-weight: bold;
     color: gray;
     background: #F2F2F2;
-    border-radius: 10px 10px 0 0 ; /* asi ponemos el borde superior redondeados*/
+    border-radius: 10px 10px 0 0;
+    /* asi ponemos el borde superior redondeados*/
 }
 
-/*para cuando pase por la pestaña, que salga negrita*/
-.m2 a:hover {
 
+/*para cuando pase por la pestaña, que salga negrita*/
+
+.m2 a:hover {
     color: black;
     font-weight: bold;
 }
@@ -153,7 +155,6 @@ li.m2 {
     padding: 0px 0px 5px 0px;
     margin-bottom: 5px;
     position: relative;
-
 }
 
 .idioma {
@@ -187,6 +188,7 @@ li.m3 {
     background: gray;
 }
 
+
 /*identificadores de cada idioma*/
 
 #ca {
@@ -202,25 +204,27 @@ li.m3 {
     border-radius: 0px 15px 15px 0px;
 }
 
+
 /*es la linea que hay debajo del menu de las pestañas y el idioma*/
+
 .linea {
     clear: both;
     /*limpio el float de los elementos de arriba*/
-    border: 2px solid #F2F2F2; /* copio el mismo color que el fondo de las pestañas*/ 
+    border: 2px solid #F2F2F2;
+    /* copio el mismo color que el fondo de las pestañas*/
     background-color: #F2F2F2;
     width: 1190px;
     padding: 1px;
-    
 }
 
-/* para poder meter bien los dos articulos de abajo, hay que hacer un poco mas pequeña la foto.*/
-.imagen_tiendasCampañas {
 
+/* para poder meter bien los dos articulos de abajo, hay que hacer un poco mas pequeña la foto.*/
+
+.imagen_tiendasCampañas {
     height: 125px;
 }
 
 #program {
-
     font-family: sans-serif;
     color: rgb(0, 188, 209);
 }
@@ -250,7 +254,6 @@ section {
 }
 
 a:hover .whatsAbout {
-
     color: rgb(5, 126, 140);
 }
 
@@ -276,21 +279,17 @@ a:hover .whatsAbout {
 }
 
 h2 {
-
     color: rgb(5, 126, 140);
     font-family: sans-serif;
 }
 
 aside {
-
     width: 300px;
     float: right;
     height: 800px;
-
 }
 
 #cuadro_registro {
-
     background: #7db9f1;
     text-align: center;
     height: 100px;
@@ -299,7 +298,6 @@ aside {
 }
 
 a.boton_verde_register {
-
     float: left;
     background: #3faa09;
     font-size: 25px;
@@ -308,26 +306,24 @@ a.boton_verde_register {
     color: white;
     padding: 10px 80px;
     margin: 15px 15px;
-
 }
 
 .letra_pequeña {
-
     text-align: center;
     font-family: 'Times New Roman';
 }
 
 .cuadro_gris_lista {
-
     font-family: 'PT Sans';
     background: rgb(235, 235, 235);
     font-size: 12px;
     height: 470px;
     border-radius: 15px;
-    
 }
 
+
 /* esto es para ajustar los iconos a la izquierda*/
+
 .lista_imagenes {
     padding: 20px 0px 20px 10px;
 }
