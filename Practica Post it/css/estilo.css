@@ -12,7 +12,6 @@ DAW2
 
 body {
     width: 1200px;
-    height: 500px;
     margin: 0px auto;
     /*margin 0 auto, para que se quede todo el body centrado.*/
 }
@@ -230,7 +229,7 @@ li.m3 {
 }
 
 section {
-    width: 890px;
+    width: 700px;
     float: left;
     margin-right: 10px;
 }
@@ -238,7 +237,7 @@ section {
 .imagen_tiendasCampañas {
     float: right;
     width: 200px;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 0px;
 }
 
@@ -247,7 +246,7 @@ section {
 }
 
 #whatsAbout {
-    width: 490px;
+    width: 480px;
     margin-right: 10px;
     float: left;
     font-family: 'Times New Roman';
@@ -258,7 +257,7 @@ a:hover .whatsAbout {
 }
 
 #schedule {
-    width: 390px;
+    width: 380px;
     float: right;
 }
 
@@ -284,7 +283,7 @@ h2 {
 }
 
 aside {
-    width: 300px;
+    width: 100px;
     float: right;
     height: 800px;
 }
