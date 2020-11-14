@@ -13,6 +13,8 @@ Los colores de las fuentes, han sido calculados tambien a ojo, para que fuesen s
 Para generar las sombras, he usado esta pagina https://www.cssmatic.com/es/box-shadow
 Lo bueno de esta pagina, que te pone compatibilidades con otros navegadores, pero he visto más limpio
 el usar solo box shadow sin necesidad de añadir más lineas de codigo.
+Luego, a la hora de girar y elegir el color, intensidad de sombras han sido calculadas a ojo para que 
+se parezcan los más posible.
 */
 
 
@@ -296,7 +298,7 @@ h2 {
 aside {
     width: 300px;
     float: right;
-    height: 800px;
+    height: 1200px;
 }
 
 #cuadro_registro {
@@ -430,4 +432,86 @@ a.boton_verde_register {
 .texto a {
     color: white;
     text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+
+/*todas las cajas tienen el mismo tamaño y sombra, así que haré una configuracion general para eso*/
+
+.post {
+    float: left;
+    width: 265px;
+    height: 175px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+    margin: 17px;
+}
+
+
+/* pintamos todas las preciosas cajitas */
+
+
+/*rosa*/
+
+#post1,
+#post5,
+#post9 {
+    background: rgb(255, 214, 214);
+}
+
+
+/*verde*/
+
+#post2,
+#post6,
+#post10 {
+    background: rgb(200, 255, 183);
+}
+
+
+/*amarillo*/
+
+#post3,
+#post7 {
+    background: rgb(255, 254, 183);
+}
+
+
+/*azul*/
+
+#post4,
+#post8 {
+    background: rgb(174, 182, 255);
+}
+
+
+/*ahora vamos a dar fotmato al texto de los pots'it*/
+
+.post h4 {
+    margin-top: 10px;
+    font-family: 'PT Sans';
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.post p {
+    padding-left: 10px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+
+/*giramos los post'it a la izquierda en negativo*/
+
+#post1,
+#post3,
+#post7,
+#post9 {
+    transform: rotate(-1.5deg);
+}
+
+
+/*giramos los post'it a la derecha en positivo*/
+
+#post5,
+#post10 {
+    transform: rotate(3deg);
 }
