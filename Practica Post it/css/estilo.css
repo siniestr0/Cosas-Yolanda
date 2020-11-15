@@ -10,11 +10,9 @@ El tamaño de la letra ha variado para que cupiese todo mas o menos como en la f
 Algunos tamaños de fotos, han sido tambien calculados a ojo para que fueran similares a la foto
 Los colores de las fuentes, han sido calculados tambien a ojo, para que fuesen similares
 
-Para generar las sombras, he usado esta pagina https://www.cssmatic.com/es/box-shadow
-Lo bueno de esta pagina, que te pone compatibilidades con otros navegadores, pero he visto más limpio
-el usar solo box shadow sin necesidad de añadir más lineas de codigo.
 Luego, a la hora de girar y elegir el color, intensidad de sombras han sido calculadas a ojo para que 
 se parezcan los más posible.
+
 */
 
 
@@ -32,13 +30,6 @@ body {
     height: 150px;
     margin-right: 10px;
     float: left;
-}
-
-
-/*esto ha sido para la linea del menu de pestañas*/
-
-hr {
-    width: 100%;
 }
 
 
@@ -89,7 +80,7 @@ a {
     float: right;
     width: 590px;
     height: 45px;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 li.m1 {
@@ -130,8 +121,8 @@ li.m1 {
     height: 40px;
     margin-right: 10px;
     font-family: 'PT Sans';
-    color: grey;
     position: relative;
+    margin-bottom: 12px;
 }
 
 li.m2 {
@@ -146,6 +137,7 @@ li.m2 {
     font-weight: bold;
     color: gray;
     background: #F2F2F2;
+    border: solid 1px rgb(168, 168, 168);
     border-radius: 10px 10px 0 0;
     /* asi ponemos el borde superior redondeados*/
 }
@@ -172,7 +164,7 @@ li.m2 {
 .idioma {
     float: left;
     text-align: right;
-    padding: 0px 0px 0px 350px;
+    padding: 0px 0px 0px 340px;
 }
 
 li.m3 {
@@ -186,13 +178,11 @@ li.m3 {
     font-weight: bold;
     color: gray;
     background: #F2F2F2;
+    border: solid 1px grey;
 }
 
 
-/*identificadores de cada idioma*/
-
-
-/*no se como poner ese borde interior que tiene los botones ni alargarlos tanto */
+/*botones de idioma*/
 
 #va {
     border-radius: 0px;
@@ -213,11 +203,11 @@ li.m3 {
 .linea {
     clear: both;
     /*limpio el float de los elementos de arriba*/
-    border: 2px solid #F2F2F2;
     /* copio el mismo color que el fondo de las pestañas*/
-    background-color: #F2F2F2;
+    background-color: rgb(168, 168, 168);
+    height: 2px;
     width: 1190px;
-    padding: 1px;
+    margin: 0 auto;
 }
 
 
@@ -254,6 +244,7 @@ section {
     margin-right: 10px;
     float: left;
     font-family: 'Times New Roman';
+    margin-top: 15px;
 }
 
 a:hover .whatsAbout {
@@ -263,6 +254,7 @@ a:hover .whatsAbout {
 #schedule {
     width: 390px;
     float: right;
+    margin-top: 15px;
 }
 
 .program {
@@ -282,6 +274,8 @@ a:hover .whatsAbout {
     clear: left;
     float: left;
     width: 890px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -317,8 +311,8 @@ a.boton_verde_register {
     font-family: Georgia;
     font-weight: bold;
     color: white;
-    padding: 10px 85px;
-    margin: 5px 10px;
+    padding: 6px 85px;
+    margin: 15px 10px;
     border-radius: 5px;
 }
 
@@ -336,10 +330,10 @@ a.boton_verde_register {
 }
 
 
-/* esto es para ajustar los iconos a la izquierda*/
-
-
-/* he ido probando los numeros hasta que han encajado*/
+/*
+Alineamos los iconos
+he ido probando los numeros hasta que han encajado
+*/
 
 .lista_imagenes {
     padding: 20px 0px 20px 10px;
@@ -369,11 +363,17 @@ a.boton_verde_register {
     transform: rotate(1deg);
 }
 
+
+/*usamos la letra que se pide y el color se calcula a ojo*/
+
 .titulo {
     font-family: Georgia;
     color: rgb(185, 0, 0);
     font-size: 30px;
 }
+
+
+/*esta es la lista con los iconocos de verificiacion redondos y rojos*/
 
 .lista_check {
     font-family: 'PT Sans';
@@ -382,21 +382,12 @@ a.boton_verde_register {
 }
 
 #share_twitter {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 #share_on_identica {
     background: #5593ac;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-#twitter {
-    background: #00a6e2;
-    margin-left: 30px;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-#share_on_identica {
     width: 250px;
     height: 50px;
     margin: 5px 25px;
@@ -406,6 +397,9 @@ a.boton_verde_register {
 }
 
 #twitter {
+    background: #00a6e2;
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
     width: 250px;
     height: 50px;
     margin: 5px 25px;
@@ -437,10 +431,15 @@ a.boton_verde_register {
 
 /*todas las cajas tienen el mismo tamaño y sombra, así que haré una configuracion general para eso*/
 
+#todos_post {
+    width: 900px;
+}
+
 .post {
     float: left;
     width: 265px;
     height: 175px;
+    border-radius: 5px 5px 5px 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
     margin: 17px;
 }
@@ -499,6 +498,9 @@ a.boton_verde_register {
 }
 
 
+/*No todas las cajas tienen el mismo grado de inclinacion o incluso parece que hay alguna que no tenga nada de inclinacion*/
+
+
 /*giramos los post'it a la izquierda en negativo*/
 
 #post1,
@@ -514,4 +516,72 @@ a.boton_verde_register {
 #post5,
 #post10 {
     transform: rotate(3deg);
+}
+
+.Partnership {
+    /*uso el clear para que no se meta al lado del ultimo post'it*/
+    /*width 800 para que la linea se corte y salga como en la foto*/
+    clear: both;
+    width: 800px;
+    float: left;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+/*moldeamos el footer*/
+
+#pie {
+    /*los margenes son para poder añadir la linea de abajo y que esté mas o menos centrada como en la foto*/
+    clear: both;
+    font-family: 'Times New Roman';
+    background: rgb(122, 122, 122);
+    height: 100px;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.lista1,
+.lista2,
+.lista3,
+.lista4 {
+    float: left;
+    margin: 10px 20px;
+}
+
+.lista1 a,
+.lista2 a,
+.lista3 a,
+.lista4 a {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+#license {
+    float: right;
+    width: 350px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+
+/*para que el color del link sea blanco */
+
+#license a {
+    font-weight: bold;
+    color: white;
+}
+
+.linea_abajo {
+    clear: both;
+    /*limpio el float de los elementos de arriba*/
+    border: 2px solid #F2F2F2;
+    background-color: #cfcfcf;
+    width: 1200px;
+    padding: 2px;
+    margin: auto;
 }
